@@ -31,6 +31,50 @@
   --card-gap: 22px;
 }
 
+/* ===========================
+   Videos
+=========================== */
+
+.video-section {
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.video-section h2 {
+    margin-bottom: 15px;
+}
+
+.video-section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 30px;
+}
+
+.video-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    padding: 20px;
+}
+
+.video-card h3 {
+    margin-bottom: 15px;
+}
+
+.video-card iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+}
+
 
 /* ==================================================
    2. RESET AND BASE STYLES
@@ -254,8 +298,8 @@ main > .section:last-child {
 ================================================== */
 
 .hero {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 12px;
 }
 
 .hero img {
